@@ -15,14 +15,14 @@ const Header = ({ siteTitle }) => (
     </div>
     <div className={`right link`}>
       <h1 className={`header-link`}>
-        <Link className={`link-text light`} to='/'>
+        <Link className={`link-text light`} to='#'>
           PHOTOS
         </Link>
       </h1>
     </div>
     <div className={`right link`}>
       <h1 className={`header-link`}>
-        <Link className={`link-text light`} to='/'>
+        <Link className={`link-text light`} to='#'>
           PROJECTS
         </Link>
       </h1>
