@@ -3,7 +3,7 @@
 .header {
 	background: white;
    border-bottom: 1px solid rgba(0,0,0,.125);
-   height: 50px;
+   height: 5vh;
 }
 
 .header-name {

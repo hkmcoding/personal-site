@@ -1,6 +1,6 @@
 .top-container {
 	width: 100vw;
-	height: 400px;
+	height: 40vh;
 	background-color: #f5f8fa;
 	border-bottom: 1px solid rgba(0,0,0,.125);
 	padding: 2rem;
@@ -46,6 +46,7 @@
 }
 
 .bottom-container {
-	height: auto;
+	height: 50vh;
 	width: 100vw;
+	background-color: gray;
 }

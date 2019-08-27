@@ -22,7 +22,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className={'bottom-container'}>
-    
+      
     </div>
   </Layout>
 )

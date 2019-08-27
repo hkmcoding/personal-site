@@ -29,11 +29,18 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: `100vw`
+          maxWidth: `100vw`,
+          height: '90vh'
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer
+          style={{
+            position: `absolute`,
+            height: `5vh`,
+            bottom: 0
+          }}
+        >
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href='https://www.gatsbyjs.org'>Gatsby</a>
