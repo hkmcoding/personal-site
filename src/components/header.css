@@ -3,7 +3,7 @@
 .header {
 	background: white;
    border-bottom: 1px solid rgba(0,0,0,.125);
-   height: 5vh;
+   height: 50px;
 }
 
 .header-name {
@@ -43,7 +43,7 @@
 }
 
 .light {
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .right {

@@ -1,0 +1,23 @@
+.footer {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	padding: 15px;
+	width: 100vw;
+}
+
+.footerSocialIcons {
+	padding: 0 15px;
+	position: absolute;
+	right: 0;
+	display: flex;
+	float: right;
+	align-items: flex-end;
+}
+
+.footerSocialIcons .socialIcons img {
+	filter: invert(83%) sepia(0%) saturate(73%) hue-rotate(212deg) brightness(94%) contrast(81%);
+	-webkit-filter: invert(83%) sepia(0%) saturate(73%) hue-rotate(212deg) brightness(94%) contrast(81%);;
+	width: 20px;
+}

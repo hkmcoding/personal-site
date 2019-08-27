@@ -62,8 +62,13 @@
 }
 
 .about-me {
-	width: 35%;
-	margin-right: 100px;
+	width: 45%;
+	max-width: 900px;
+	margin-right: 50px;
+}
+
+.about-paragraph {
+	margin-top: 15px;
 }
 
 .logo {
@@ -82,7 +87,19 @@
 }
 
 .socialIcons img {
-	margin: 0 10px 10px 0;
+	margin: 5px 10px 5px 0;
+}
+
+.socialIcons:hover, .socialIcons:hover img  {
+	cursor: pointer;
+	filter: invert(27%) sepia(90%) saturate(1396%) hue-rotate(195deg) brightness(95%) contrast(86%);
+	-webkit-filter: invert(27%) sepia(90%) saturate(1396%) hue-rotate(195deg) brightness(95%) contrast(86%);
+}
+
+.social-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
 }
 
 .title {

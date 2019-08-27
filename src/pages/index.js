@@ -29,8 +29,8 @@ const IndexPage = () => (
           <span className={`title`}>
             About me
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit a est accumsan iaculis. Fusce ultrices rutrum ex ut lacinia. Fusce maximus nisl nibh, ac venenatis nibh fermentum non. Donec molestie est at tortor hendrerit maximus. Fusce in ultricies diam. Vivamus consectetur, nulla placerat viverra maximus, ipsum urna finibus odio.
+          <p className={`about-paragraph`}>
+            Humza Mujib loves programming, gaming, lifting heavy things, music, and more much. You could call him a man of many hobbies. He graduated NJIT with a Bs.IT degree and a web development specialization in 2018. While originally hired as a Technical Business Analyst, Humza wasn't afraid to get into the code as he was coding throughout college. Eventually he transitioned into a Jr. Developer role and was even the lead developer on some large projects. For more info, check out some of the <Link to=''>projects</Link> he's worked on or some of his <Link to=''>photos</Link>. Thanks for stopping by!
           </p>
         </div>
         <div className={`contact`}>
