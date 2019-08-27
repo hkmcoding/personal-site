@@ -5,12 +5,14 @@ import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
 
+import Social from '../components/social'
+
 import '../styles/index.css'
 
 const IndexPage = () => (
   <Layout>
     <div className={`top-container`}>
-      <div className={`center`}>
+      <div className={`top-center`}>
         <div className={`image-container`}>
           <Image />
         </div>
@@ -22,7 +24,22 @@ const IndexPage = () => (
       </div>
     </div>
     <div className={'bottom-container'}>
-      
+      <div className={`bottom-center`}>
+        <div className={`about-me`}>
+          <span className={`title`}>
+            About me
+          </span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit a est accumsan iaculis. Fusce ultrices rutrum ex ut lacinia. Fusce maximus nisl nibh, ac venenatis nibh fermentum non. Donec molestie est at tortor hendrerit maximus. Fusce in ultricies diam. Vivamus consectetur, nulla placerat viverra maximus, ipsum urna finibus odio.
+          </p>
+        </div>
+        <div className={`contact`}>
+          <span className={`title`}>
+            Contact
+          </span>
+          <Social github='Github' linkedin='LinkedIn' email='Email' />
+        </div>
+      </div>
     </div>
   </Layout>
 )

@@ -1,6 +1,6 @@
 .top-container {
 	width: 100vw;
-	height: 40vh;
+	min-height: 40vh;
 	background-color: #f5f8fa;
 	border-bottom: 1px solid rgba(0,0,0,.125);
 	padding: 2rem;
@@ -9,9 +9,9 @@
 	align-items: center;
 }
 
-.center {
+.top-center {
 	position: relative;
-	margin: auto;
+	width: auto;
 }
 
 .image-container {
@@ -46,7 +46,46 @@
 }
 
 .bottom-container {
-	height: 50vh;
 	width: 100vw;
-	background-color: gray;
+	min-height: 50vh;
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom-center {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.about-me {
+	width: 35%;
+	margin-right: 100px;
+}
+
+.logo {
+	max-width: 35px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.socialIcons {
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+.socialIcons img {
+	margin: 0 10px 10px 0;
+}
+
+.title {
+	font-weight: 700;
+	margin-bottom: 10px;
 }

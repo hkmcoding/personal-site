@@ -30,15 +30,16 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: `100vw`,
-          height: '90vh'
+          height: `auto`,
+          minHeight: '90vh'
         }}
       >
         <main>{children}</main>
         <footer
           style={{
             position: `absolute`,
-            height: `5vh`,
-            bottom: 0
+            display: `block`,
+            height: `5vh`
           }}
         >
           © {new Date().getFullYear()}, Built with
