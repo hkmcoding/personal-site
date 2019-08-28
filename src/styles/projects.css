@@ -1,5 +1,5 @@
 .container {
-	width: 500px;
+	max-width: 500px;
 	margin: 20px;
 	border: 1px solid rgba(0,0,0,.125);
 	border-radius: 25px;
@@ -58,7 +58,7 @@
 	display: block;
 	position: relative;
 	text-align: center;
-	height: 350px;
+	max-height: 350px;
 }
 
 .project-title {

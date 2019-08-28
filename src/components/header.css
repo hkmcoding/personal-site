@@ -49,3 +49,9 @@
 .right {
 	float: right;
 }
+
+@media(max-width: 450px) {
+	.right {
+		display: none;
+	}
+}
