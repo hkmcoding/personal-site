@@ -24,8 +24,10 @@ const Project = props => {
           </div>
          </>
         	)}
+        	<span className={`role`}>{props.role}</span>
       </div>
       <div className={`project-description`}>
+        <span className={`project-title`}>{props.title}</span>
         <span>{props.description}</span>
       </div>
     </div>
