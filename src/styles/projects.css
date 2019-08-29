@@ -6,6 +6,10 @@
 	padding: 10px;
 }
 
+.container:hover {
+	border: 2px solid rgba(0,0,0,.125);
+}
+
 .tech {
 	display: flex;
 }
@@ -54,6 +58,12 @@
 	justify-content: center;
 }
 
+.project-row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .project-image {
 	display: block;
 	position: relative;
@@ -75,4 +85,27 @@
 .project-link {
 	text-decoration: none;
 	color: black;
+	margin: 20px;
+}
+
+@media(max-width: 800px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.project-container {
+		margin: 20px;
+	}
+	.project-row {
+		flex-direction: column;
+	}
+}
+
+@media(max-width: 365px) {
+	.tech {
+		flex-wrap: wrap;
+	}
+	.role {
+		margin-left: 0;
+	}
 }
