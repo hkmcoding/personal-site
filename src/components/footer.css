@@ -8,9 +8,8 @@
 }
 
 .footerSocialIcons {
-	padding: 0 15px;
-	position: absolute;
-	right: 0;
+	position: relative;
+	margin-left: auto;
 	display: flex;
 	align-items: flex-end;
 }
