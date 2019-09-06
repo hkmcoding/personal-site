@@ -7,15 +7,25 @@ import SEO from '../components/seo'
 import '../styles/projects.css'
 
 // Image imports
+import baileys from '../images/baileys.png'
 import jointhepact from '../images/jointhepact.png'
 import yuzuri from '../images/yuzuri.png'
 import budgetapp from '../images/budgetapp.png'
 import belsazar from '../images/belsazar.png'
+import ciroc from '../images/ciroc.png'
 
 const Projects = () => (
   <Layout>
     <SEO title='Projects' />
     <div className={`project-container`}>
+      <div className={`project-row`}>
+        <a className={`project-link`} href='https://www.ciroc.com/en-us/'>
+          <Project image={ciroc} tech={['HTML', 'CSS', 'JS']} title={'Ciroc'} role={'Dev'} description='Ciroc was one of my first collabrative projects where I worked with other team members. I was mostly responsible for site updates, security fixes, and working on components used throughout the pages.' />
+        </a>
+        <a className={`project-link`} href='https://www.baileys.com/en-us/home.html'>
+          <Project image={baileys} tech={['HTML', 'CSS', 'JS']} title={'Baileys'} role={'Dev'} description='Baileys was a site that was originally made by another agency. It was made quite poorly but the client did not want pause site updates while doing working on a sitewide rebuild. My work is updating the old Baileys site while also eventually leading the rebuild.' />
+        </a>
+      </div>
       <div className={`project-row`}>
         <a className={`project-link`} href='https://jointhepact.com'>
           <Project image={jointhepact} tech={['HTML', 'CSS', 'JS', 'PHP']} title={'Join the Pact'} role={'Design, Dev'} description='Join the Pact is a campaign where visitors pledge never to drink and drive. It is a worldwide site with 7 locales and growing. Most of my work went towards creating the interactive pledge map. I also am responsible for the Greek, Thailand, and Vietnam locale.' />

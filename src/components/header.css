@@ -48,6 +48,10 @@
 	float: right;
 }
 
+.active {
+	color: #004f99;
+}
+
 @media(max-width: 450px) {
 	.right {
 		display: none;
