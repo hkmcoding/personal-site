@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
-import SEO from '../components/seo'
+// import SEO from '../components/seo'
 
 import Social from '../components/social'
 
@@ -30,7 +30,7 @@ const IndexPage = () => (
             About me
           </span>
           <p className={`about-paragraph`}>
-            Humza Mujib loves programming, gaming, lifting heavy things, music, and more much. You could call him a man of many hobbies. He graduated NJIT with a Bs.IT degree and a web development specialization in 2018. While originally hired as a Technical Business Analyst, Humza wasn't afraid to get into the code as he was coding throughout college. Eventually he transitioned into a Jr. Developer role and was even the lead developer on some large projects. For more info, check out some of the <Link to='/projects'>projects</Link> he's worked on or some of his <Link to='#'>photos</Link>. Thanks for stopping by!
+            Humza Mujib loves programming, gaming, lifting heavy things, music, and more much. You could call him a man of many hobbies. He graduated NJIT with a Bs.IT degree and a web development specialization in 2018. While originally hired as a Technical Business Analyst, Humza wasn't afraid to get into the code as he was coding throughout college. Eventually he transitioned into a Jr. Developer role and was even the lead developer on some large projects. For more info, check out some of the <Link to='/projects'>projects</Link> he's worked on or send him an <a href='mailto:humzakmujib@gmail.com'>email</a>. I wonder if I was supposed to write this in the third person? Anyways, thanks for stopping by!
           </p>
         </div>
         <div className={`contact`}>

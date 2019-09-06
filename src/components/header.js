@@ -8,11 +8,12 @@ const Header = ({ siteTitle }) => (
   <header className={`header`}>
     <div className={`left link`}>
       <h1 className={`header-name`}>
-        <Link className={`link-text`} to='/'>
+        <Link activeClassName='test' className={`link-text`} to='/'>
           HUMZA MUJIB
         </Link>
       </h1>
     </div>
+    {/* 
     <div className={`right link`}>
       <h1 className={`header-link`}>
         <Link className={`link-text light`} to='/photos'>
@@ -20,6 +21,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    */}
     <div className={`right link`}>
       <h1 className={`header-link`}>
         <Link className={`link-text light`} to='/projects'>
