@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
-// import SEO from '../components/seo'
+import SEO from '../components/seo'
 
 import Social from '../components/social'
 
@@ -11,6 +11,7 @@ import '../styles/index.css'
 
 const IndexPage = () => (
   <Layout>
+    <SEO title='Home' />
     <div className={`top-container`}>
       <div className={`top-center`}>
         <div className={`image-container`}>
