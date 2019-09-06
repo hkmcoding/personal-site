@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 
 import '../styles/projects.css'
 
-// Image imports
+// Image imports, check if there is a better way to do this in the future
 import baileys from '../images/baileys.png'
 import jointhepact from '../images/jointhepact.png'
 import yuzuri from '../images/yuzuri.png'
