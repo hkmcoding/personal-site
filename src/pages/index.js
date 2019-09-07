@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
-// import SEO from '../components/seo'
+import SEO from '../components/seo'
 
 import Social from '../components/social'
 
@@ -11,6 +11,7 @@ import '../styles/index.css'
 
 const IndexPage = () => (
   <Layout>
+    <SEO title='Home' />
     <div className={`top-container`}>
       <div className={`top-center`}>
         <div className={`image-container`}>
@@ -18,7 +19,7 @@ const IndexPage = () => (
         </div>
         <div className={`text-container`}>
           <h1 className={`name`}>Humza Mujib</h1>
-          <p className={`description`}>I make good looking websites.</p>
+          <p className={`description`}>I make good looking websites ¯\_(ツ)_/¯</p>
           <p className={`description`}>Check out my <Link className={`page-link`} to='/projects'>projects</Link> for work samples or read more about me below.</p>
         </div>
       </div>
@@ -30,7 +31,7 @@ const IndexPage = () => (
             About me
           </span>
           <p className={`about-paragraph`}>
-            Humza Mujib loves programming, gaming, lifting heavy things, music, and more much. You could call him a man of many hobbies. He graduated NJIT with a Bs.IT degree and a web development specialization in 2018. While originally hired as a Technical Business Analyst, Humza wasn't afraid to get into the code as he was coding throughout college. Eventually he transitioned into a Jr. Developer role and was even the lead developer on some large projects. For more info, check out some of the <Link className={`page-link`} to='/projects'>projects</Link> he's worked on or send him an <a className={`page-link`} href='mailto:humzakmujib@gmail.com'>email</a>. I wonder if I was supposed to write this in the third person? Anyways, thanks for stopping by!
+            Humza Mujib is an extraordinary developer. Originally hired as a Technical Business Analyst, Humza wasn't afraid to get into the code and get dirty. As a result, he has worked on many fantastic projects, and he has even had the opportunity to lead some large projects on his own. For more info on this amazing (but humble) individual, check out some of the <Link className={`page-link`} to='/projects'>projects</Link> he's worked on or send him an <a className={`page-link`} href='mailto:humzakmujib@gmail.com'>email</a>.
           </p>
         </div>
         <div className={`contact`}>
