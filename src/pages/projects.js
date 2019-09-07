@@ -25,16 +25,14 @@ const Projects = () => (
         <a className={`project-link`} href='https://www.baileys.com/en-us/home.html'>
           <Project image={baileys} tech={['HTML', 'CSS', 'JS']} title={'Baileys'} role={'Dev'} description='Baileys was a site that was originally made by another agency. It was made quite poorly but the client did not want pause site updates while doing working on a sitewide rebuild. My work is updating the old Baileys site while also eventually leading the rebuild.' />
         </a>
-      </div>
-      <div className={`project-row`}>
-        <a className={`project-link`} href='https://jointhepact.com'>
+         <a className={`project-link`} href='https://jointhepact.com'>
           <Project image={jointhepact} tech={['HTML', 'CSS', 'JS', 'PHP']} title={'Join the Pact'} role={'Design, Dev'} description='Join the Pact is a campaign where visitors pledge never to drink and drive. It is a worldwide site with 7 locales and growing. Most of my work went towards creating the interactive pledge map. I also am responsible for the Greek, Thailand, and Vietnam locale.' />
         </a>
+      </div>
+      <div className={`project-row`}>
         <a className={`project-link`} href='https://yuzuriliqueur.com'>
           <Project image={yuzuri} tech={['HTML', 'CSS', 'JS']} title={'Yuzuri Liqueur'} role={'Lead Developer'} description='Yuzuri Liqueur was originally a Wordpress site. After the brand was aquired by the client, they wanted to get the site off of Wordpress. Some of the challenges with this project were emulating Wordpress plugin behaviors. This was also my first solo-developer project from start to finish!' />
         </a>
-      </div>
-      <div className={`project-row`}>
         <a className={`project-link`} href='https://www.belsazar.com/en-de/'>
           <Project image={belsazar} tech={['HTML', 'CSS', 'JS']} title={'Belsazar'} role={'Lead QA Analyst'} description='Belsazar was also originally a Wordpress site that had to be migrated. Due to my previous experience with migrating Yuzuri, I was responisble for light dev and QA. Belsazar was particularly challenging due to the original Wordpress site not working properly.' />
         </a>
